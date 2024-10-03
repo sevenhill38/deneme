@@ -1,0 +1,31 @@
+// Merhaba Dünya Uygulamamýz
+fun main()
+{	println("Merhaba Dünya")
+}
+                                                                     -> Bu deðiþkenler þu þekilde tanýmlanýabilir
+var ad = "Ali Akay"                   		var ad:String = "Ali Akay"   
+var yas = 40				var yas:Int = 40
+var kilo = 75.5f         			var kilo:Float = 75.5f
+var cinsiyet = 'E'				var cinsiyet:Char = 'E'
+Veri Tipleri
+ String -> Metinsel Ýfadeler
+Char -> Tek karakter
+Int -> Tamsayý
+Float -> Ondalýklý sayý
+Double -> Büyük ondalýklý sayý
+print(), println() komutu kullanýmlarý
+println("Benim adým $ad")
+println("Yaþým $yas")
+println("$kilo dayým")
+println("Cinsiyetim $cinsiyet")
+Artimetik Operatörler
+var sayi1 = 23
+var sayi2 = 35
+var toplam = sayi1+sayi2
+var fark = sayi1-sayi2
+var carpim = sayi1*sayi2
+var bolum = sayi1/sayi2
+print("$sayi1 + $sayi2 = $toplam")
+print("$sayi1 - $sayi2 = $fark")
+print("$sayi1 * $sayi2 = $carpim")
+print("$sayi1 / $sayi2 = $bolum")
